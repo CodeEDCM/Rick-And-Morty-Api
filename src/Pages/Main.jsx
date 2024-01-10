@@ -10,12 +10,18 @@ export const Main = () => {
     <>
       <section className={style.Aside}>
         <Button Name="<<" Resource={previousPage} />
-        <h4>{page}</h4>
+        <h4 className={style.h4}>{page}</h4>
         <Button Name=">>" Resource={nextPage} />
       </section>
 
       <section>
         <Card data={data} />
+      </section>
+
+      <section className={style.Aside}>
+        <Button Name="<<" Resource={previousPage} />
+        <h4 className={style.h4} >{page}</h4>
+        <Button Name=">>" Resource={nextPage} />
       </section>
     </>
   );
