@@ -1,0 +1,24 @@
+{
+  "menuNav": [
+    {
+      "id": 1,
+      "name": "Home",
+      "url": "/Home"
+    },
+    {
+      "id": 2,
+      "name": "Docs",
+      "url": "https://rickandmortyapi.com/documentation"
+    },
+    {
+      "id": 3,
+      "name": "About",
+      "url": "https://rickandmortyapi.com/about"
+    },
+    {
+      "id": 4,
+      "name": "Help",
+      "url": "https://rickandmortyapi.com/support-us"
+    }
+  ]
+}

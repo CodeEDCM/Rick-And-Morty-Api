@@ -1,0 +1,46 @@
+.Main{
+ display: grid;
+ grid-template-columns: 1fr;
+ height:420px;
+ grid-template-rows:repeat(3,1fr);
+ background-color: rgb(39, 43, 51);
+ grid-template-areas: 
+ 'ContIcon'
+ 'ContText1'
+ 'ContText2';
+ margin-top: 40px;
+}
+
+.Icon{
+ grid-area: ContIcon;
+ display: flex;
+ align-items:flex-end;
+ justify-content:center;
+}
+.Text1{
+ grid-area: ContText1;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.Text2{
+ grid-area: ContText2;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.p1{
+ text-align: center;
+ margin: 20px auto;
+ width: 40%;
+ color: white;
+ font-family:  Helvetica,Arial, sans-serif;
+}
+.p2{
+ text-align: center;
+ margin: 10px auto;
+ width: 70%;
+ color: white;
+ font-family:  Helvetica,Arial, sans-serif;
+}

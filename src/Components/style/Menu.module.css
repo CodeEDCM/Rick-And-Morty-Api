@@ -1,0 +1,22 @@
+.Main{
+display: flex;
+align-items: center;
+justify-content: right;
+
+
+}
+
+.Nav{
+ list-style: none;
+ margin: 0 20px 0 0;
+}
+
+.A{
+text-decoration: none;
+font-size: 22px;
+color: white;
+}
+.A:hover{
+ color:  #3b82f6;
+ border-bottom: 1px solid #3b82f6;
+}

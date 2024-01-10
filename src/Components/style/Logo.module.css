@@ -1,0 +1,16 @@
+.Main{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.ContImg {
+ width: 80px;
+ margin: 0 10px  0 0;
+}
+
+.ContSpan{
+width: 100%;
+font-size: 40px;
+color: white;
+}

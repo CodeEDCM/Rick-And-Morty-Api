@@ -1,0 +1,51 @@
+
+.main{
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+ gap: 25px;
+ width: 75%;
+ margin: 0 auto;
+}
+.Card {
+ width: 300px;
+ border-radius: 8px;
+ overflow: hidden;
+ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.205);
+ background-color: #fff;
+ padding: 10px;
+}
+
+
+.cardImg {
+ width: 100%;
+ height: auto;
+ border-bottom: 1px solid #ddd;
+}
+
+.cardContent {
+ padding: 2px;
+}
+
+.cardH2 {
+ margin-top: 0;
+ color: #333;
+ font-size: 32px;
+ text-align: center;
+}
+.cardH2:hover{
+ color: #3b82f6;
+}
+
+.cardP {
+ color: #666;
+ margin: 0 0 5px 0;
+ padding: 0 0 0 10px;
+
+ 
+}
+
+.cardSpan{
+ margin: 0;
+ color: #6666669d;
+ width: 30%;
+}
